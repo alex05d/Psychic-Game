@@ -1,0 +1,19 @@
+body {
+    background-image: url(https://www.wallpaperup.com/uploads/wallpapers/2013/02/17/41478/8438e65db36f6c3c3b2f06d804a7fcf3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+#title {
+    text-align: center;
+    color: white;
+    font-family: 'Merienda One', cursive;
+    margin-top: 40px;
+}
+#game {
+    margin-top: 340px;
+    text-align: center;
+    font-family: 'Merienda One', cursive;
+}
+        

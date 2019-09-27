@@ -44,6 +44,10 @@ document.onkeyup = function (event) {
             triesT.innerHTML = tries;
 
         }
+        else if (picks === picks) {
+            tries--;
+            triesT.innerHTML = tires;
+        }
         if (tries === 0 && picks !== computerPick) {
             loss++;
             losses.innerHTML = loss;
