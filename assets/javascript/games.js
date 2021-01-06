@@ -23,7 +23,7 @@ var reset = function () {
     triesT.innerHTML = tries;
     userPicks.innerHTML = userguess;
     computerPick = options[Math.floor(Math.random() * options.length)];
-}
+};
 
 
 //--user picks a letter 
@@ -58,5 +58,8 @@ document.onkeyup = function (event) {
 
             reset();
         }
-    }
-}
+    } else {
+        // alert('try again');
+        $('#myModal').modal('toggle');
+    };
+};

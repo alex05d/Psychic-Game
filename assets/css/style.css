@@ -1,9 +1,21 @@
-body {
-    background-image: url(https://www.wallpaperup.com/uploads/wallpapers/2013/02/17/41478/8438e65db36f6c3c3b2f06d804a7fcf3.jpg);
+/* body { */
+    /* background-image: url(https://www.wallpaperup.com/uploads/wallpapers/2013/02/17/41478/8438e65db36f6c3c3b2f06d804a7fcf3.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    background-size: cover;
+    background-size: cover; */
+/* } */
+html, body{
+    margin: 0%;
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: black;
+}
+.container{
+    margin: 0%;
+    padding:0%;
 }
 #title {
     text-align: center;
@@ -12,8 +24,22 @@ body {
     margin-top: 40px;
 }
 #game {
-    margin-top: 340px;
+    /* margin-top: 340px; */
     text-align: center;
-    font-family: 'Merienda One', cursive;
+    font-family: 'Merienda One', cursive;    
+    background-image: url(https://www.wallpaperup.com/uploads/wallpapers/2013/02/17/41478/8438e65db36f6c3c3b2f06d804a7fcf3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+#guessDiv{
+    position: fixed;
+    top: 61%;
+    right: 33%;
+    /* display: flex; */
+align-items: center;
+justify-content: center;
 }
         
