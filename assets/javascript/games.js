@@ -63,3 +63,11 @@ document.onkeyup = function (event) {
         $('#myModal').modal('toggle');
     };
 };
+
+$(function () {
+    $('#close').click(function (e) {
+        e.preventDefault();
+        $("#myModal").modal('hide');
+
+    });
+});
