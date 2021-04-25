@@ -29,7 +29,7 @@ var reset = function () {
 //--user picks a letter 
 document.onkeyup = function (event) {
     input = event.key;
-    picks = input.toUpperCase();
+    picks = input.toUpperCase() + ' ';
 
 
     if (!userguess.includes(input)) {
